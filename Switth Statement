@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+    
+  // cin<<num;
+    int ch ='a';
+    cout<< endl;
+switch(ch){
+    case 1:cout<< "first"<< endl;
+    break;
+    case 'a':cout<<"second"<<endl;
+    break;
+    default:cout<<"default case"<<endl;
+    break;
+}
+cout<<endl; 
+}
