@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+void PrintArray(int Arr[],int size){
+    
+    cout << "print the Array" << " ";
+for(int i=0;i<size;i++){
+    cout<< Arr[i] << " ";
+}
+cout<< "printing done"<<endl;
+}
+
+int main(){
+    int first[14]={4,6};
+    int n=14;
+    PrintArray(first,14);
+
+int second[10]={29,5,43,789};
+n=10;
+PrintArray(second,10);
+int secondsize=sizeof(second)/sizeof(int);
+cout<<"size of fifth is   "<<secondsize<<endl;
+int third [14]={0};
+n=14;
+PrintArray(third,14);
+int thirdsize=sizeof(third)/sizeof(int);
+cout<< " size of third is  "<<thirdsize<<endl;
+
+ //Array with character
+ 
+char ch[4]={'r','a','w','e'};
+cout<<"value the ch[2] is  "<<ch[2]<<endl;
+cout<<"printing the array is  ";
+for(int i=0;i<4;i++){
+cout<<ch[i]<<" ";
+//other funtion 
+double firstdouble[20];
+float secondfloat[10];
+bool thirdbool[04];
+}
+cout <<endl<< "printing is done";
+}
