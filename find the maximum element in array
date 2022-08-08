@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int highestelement (int arr[],int n){
+    int max= arr[0];
+    for(int i=0;i<n;i++){
+        if( max < arr[i] ){
+            max=arr[i];
+        }
+}
+return max;
+}
+int main(){
+    int arr1[] ={1,6,3453,35,3,5};
+    int n=6;
+    int max = highestelement(arr1,n);
+    cout<< "the highestelement number is   "<< max <<endl;
+    int arr2[] ={1,24,244255,22,222,4525};
+    n=6;
+    max = highestelement(arr2,n);
+    cout<< "the highestlement number is   "<< max <<endl;
+}
