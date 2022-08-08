@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int sum = 0;
+    int avg=0;
+    
+    int array[6]={2,24,2,4,64,8};
+    int n=6;
+    for(int i : array){
+        sum=sum+i;
+        avg=sum/n;
+    }
+        cout<<" average the array "<<avg<<endl;
+}
