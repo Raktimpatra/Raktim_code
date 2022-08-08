@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    int sum=0;
+    int array[]={2,123,12,12,12,23};
+    for(int i:array){
+        sum=sum+i;
+        
+    }
+    cout<<"sum of element   "<<sum<<endl;
+    return 0;
+}
