@@ -1,0 +1,22 @@
+using namespace std;
+//Cout uppercase , Lowercase ,special character and numeric
+void cout(string str){
+
+int upper = 0, lower = 0, number = 0, special = 0;
+for (int i = 0; i< str.length(); i++)
+
+{
+	if (str[i]>= 'A' && str[i]<= 'Z')
+	upper++;
+	else if (str[i] >= 'a' && str[i]<= 'z')
+	lower++;
+	else if (str[i] >= '0' && str[i]<= '9')
+	number++;
+	else
+	special++;
+}
+cout << "upper case letter: " << upper << endl;
+cout << "lower case letter: " << lower << endl;
+cout << " Number : "<< number << endl;
+cout << " special characters : "<< special << endl;
+}
